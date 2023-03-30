@@ -1,4 +1,4 @@
-# Stock Price Predictor
+## Stock Price Predictor
 This is a machine learning project that predicts the closing stock price of companies listed in the Saudi Stock Exchange (Tadawul). The project is based on historical data obtained from Kaggle, with data from January 2014 to May 2020.
 
 # Project Structure

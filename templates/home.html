@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stock Price Predictor - Home</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+		h1 {
+			text-align: center;
+			color: #007bff;
+		}
+		form {
+			margin: 0 auto;
+			width: 400px;
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+		}
+		label {
+			display: block;
+			font-weight: bold;
+			margin-bottom: 10px;
+			color: #555;
+		}
+		input[type="text"] {
+			padding: 10px;
+			margin-bottom: 20px;
+			width: 100%;
+			border: none;
+			border-radius: 5px;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+		}
+		input[type="submit"] {
+			background-color: #007bff;
+			color: #fff;
+			font-size: 18px;
+			font-weight: bold;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: #0062cc;
+		}
+	</style>
+</head>
+<body>
+	<h1>Stock Price Predictor</h1>
+	<form action="/predict" method="POST">
+		<label for="trading_name">Trading Name:</label>
+		<input type="text" id="trading_name" name="trading_name" placeholder="Enter the trading name..." required>
+		<label for="open">Open:</label>
+		<input type="text" id="open" name="open" placeholder="Enter the opening price..." required>
+		<label for="year">Year:</label>
+		<input type="text" id="year" name="year" placeholder="Enter the year..." required>
+		<label for="month">Month:</label>
+		<input type="text" id="month" name="month" placeholder="Enter the month..." required>
+		<label for="day">Day:</label>
+		<input type="text" id="day" name="day" placeholder="Enter the day..." required>
+		<input type="submit" value="Predict">
+	</form>
+</body>
+</html>

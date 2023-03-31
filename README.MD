@@ -31,7 +31,7 @@ templates/home.html: contains the HTML and Jinja code for the home page of the w
 templates/result.html: contains the HTML and Jinja code for displaying the results of the prediction on the user's input data. It includes the predicted value and some additional information, as well as some basic styling using CSS.
 
 # Machine Learning Model
-The project uses a linear Regression model to predict the closing stock price of a company. The model is trained on historical data of multiple companies listed on the Tadawul. The features used in the model include the opening price, closing price, highest price, lowest price, and volume of shares traded for each day.
+The project uses a Random Forest model to predict the closing stock price of a company. The model is trained on historical data of multiple companies listed on the Tadawul. The features used in the model include the opening price, closing price, highest price, lowest price, and volume of shares traded for each day.
 
 # Web Application
 The project includes a web application built using Flask framework. The web application allows the user to enter the trading name, opening price, year, month, and day of a company and returns the predicted closing price using the trained machine learning model.

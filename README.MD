@@ -2,7 +2,9 @@
 This is a machine learning project that predicts the closing stock price of companies listed in the Saudi Stock Exchange (Tadawul). The project is based on historical data obtained from Kaggle, with data from January 2014 to May 2020.
 ## Libraries Used
 Python (3.7.11).
+
 NumPy (1.19.5): A library used for working with arrays and numerical operations.
+
 pandas (1.3.3): A library used for data manipulation and analysis.
 
 Matplotlib (3.4.3): A library used for creating visualizations and plots.
